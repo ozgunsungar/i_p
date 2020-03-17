@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html><!-- appearance in a.button is only not supported in Internet Explorer-->
+<head>
+	<title>Gallery</title>
+	<meta charset="utf-8">
+	<style>
+		
+		a:hover {
+			color: #004C99;
+		}
+		.maindiv {
+			width: 1250px;height: auto;background-color:#CCE5FF;margin: 0 auto;border: 1px solid #000 
+		}
+		.active {
+			background-color: #CCE5FF;
+			color: #000;
+		}
+		.tablo{
+			width: 1200px;height: 1000px; margin: 50px auto
+		}
+		.logo{
+			height: 40px;
+			margin: -21px 0 0 525px;
+			position: absolute;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+
+		}
+
+		li {
+			float: left;
+			
+			margin: -20px 0 0 0 ;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+
+		}
+
+		li a:hover:not(.active) {
+			background-color: #111;
+
+		}
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+		th, td {
+			text-align: center;
+			padding: 8px;
+		}
+		
+
+		th {
+			background-color: #39F;
+			color: white;
+		}
+		img {
+			height: 150px;
+
+
+		}
+
+		a.button {
+			-webkit-appearance: button;
+			-moz-appearance: button;
+			appearance: button;
+
+			text-decoration: none;
+			color: initial;
+
+
+		}
+		button{
+			border-radius: 10px;
+		}
+		
+
+		
+		
+		
+		
+	}
+</style>
+
+<link rel="shortcut icon" href="images/logo2new.png"/>
+</head>
+<body>
+	<div class="maindiv">
+		<div><ul>
+			<br>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="services.html">Our Services</a></li>
+			<li><a href="team.html">Our Team</a></li>
+			<li><a class="active" href="gallery.html">Gallery</a></li>
+			<li><a href="contactme.html">Contact</a></li>
+			<li><a href="registration.html">Registration</a></li>
+			
+		</ul>
+		<div class="logo"><a href="index.html"><img src="images/logoyeni.png" class="logo"></a></div>
+		
+
+	</div>
+
+	<form action="https://www.google.com/search" method="get" name="searchform" target="_blank" style="margin: 10px 0 0 900px;clear: both;">
+		<label for="gsearch">Search Google:</label>
+		<input name="sitesearch" type="hidden">
+		<input id="gsearch" autocomplete="on" name="q" placeholder="Search.." required="required"  type="text">
+		<button class="button" type="submit" title="Search">Search</button>
+	</form>	
+	<div class="tablo">
+		
+		
+
+		<table border="1px solid #000">
+			<h2>Animals We Heal</h2>
+			<tr>
+				<th>Animal</th>
+				<th>Info</th>
+				<th>Audio</th>
+			</tr>
+			<tr>
+				<td>Cat<br><img src="images/animals/cat.png"></td>
+				<td><p>The cat is a small carnivorous mammal. It is the only domesticated species in the family Felidae and often referred to as the domestic cat to distinguish it from wild members of the family. The cat is either a house cat, a farm cat or a feral cat; the latter ranges freely and avoids human contact. Domestic cats are valued by humans for companionship and for their ability to hunt rodents. About 60 cat breeds are recognized by various cat registries.</p>
+					<a href="https://en.wikipedia.org/wiki/Cat" class="button" target="_blank"><button>continue..</button></a>
+
+
+				</td>
+				<td><audio controls>
+					<source src="https://upload.wikimedia.org/wikipedia/commons/6/62/Meow.ogg" type="audio/ogg">
+						Your browser does not support the audio element.
+
+					</audio>
+				</td>
+			</tr>
+			<tr>
+				<td>Dog<br>
+					<img src="images/animals/dog.png"></td>
+					<td><p>The domestic dog (Canis familiaris when considered a distinct species or Canis lupus familiaris when considered a subspecies of the wolf) is a member of the genus Canis (canines), which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore.The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct. The dog was the first species to be domesticated,and has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes
+					</p>
+					<a href="https://en.wikipedia.org/wiki/Dog" class="button" target="_blank"><button>continue..</button></a>
+				</td>
+				<td><audio controls>
+					<source src="https://upload.wikimedia.org/wikipedia/commons/5/58/Barking_of_a_dog_2.ogg" type="audio/ogg">
+						Your browser does not support the audio element.
+					</audio>
+				</td>
+			</tr>
+			<tr>
+				<td>Goat<br>
+					<img src="images/animals/goat.jpg"></td>
+					<td><p>The domestic goat or simply goat (Capra aegagrus hircus) is a subspecies of C. aegagrus domesticated from the wild goat of Southwest Asia and Eastern Europe. The goat is a member of the animal family Bovidae and the subfamily Caprinae, meaning it is closely related to the sheep. There are over 300 distinct breeds of goat.Goats are one of the oldest domesticated species of animal, and have been used for milk, meat, fur and skins across much of the world.Milk from goats is often turned into goat cheese.
+					</p>
+					<a href="https://en.wikipedia.org/wiki/Goat" class="button" target="_blank"><button>continue..</button></a>
+				</td>
+				<td><audio controls>
+					<source src="https://upload.wikimedia.org/wikipedia/commons/1/13/Sheep_bleating.ogg" type="audio/ogg">
+						Your browser does not support the audio element.
+					</audio>
+				</td>
+			</tr>
+			<tr>
+				<td>Horse<br>
+					<img src="images/animals/horse.png"></td>
+					<td><p>The horse (Equus ferus caballus) is one of two extant subspecies of Equus ferus. It is an odd-toed ungulate mammal belonging to the taxonomic family Equidae. The horse has evolved over the past 45 to 55 million years from a small multi-toed creature, Eohippus, into the large, single-toed animal of today. Humans began domesticating horses around 4000 BC, and their domestication is believed to have been widespread by 3000 BC. Horses in the subspecies caballus are domesticated, although some domesticated populations live in the wild as feral horses. 
+					</p>
+					<a href="https://en.wikipedia.org/wiki/Horse" class="button" target="_blank"><button>continue..</button></a>
+				</td>
+				<td><audio controls>
+					<source src="C:\Users\Özgün\Desktop\internet_programming\odev1\ses\horse.mp3" type="audio/mp3">
+						Your browser does not support the audio element.
+					</audio>
+				</td>
+			</tr>
+			<tr>
+				<td>Parrot<br>
+					<img src="images/animals/Parrot.png"></td>
+					<td><p>Parrots, also known as psittacines /ˈsɪtəsaɪnz/,are birds of the roughly 393 species in 92 genera comprising the order Psittaciformes, found mostly in tropical and subtropical regions. The order is subdivided into three superfamilies: the Psittacoidea ("true" parrots), the Cacatuoidea (cockatoos), and the Strigopoidea (New Zealand parrots). Parrots have a generally pantropical distribution with several species inhabiting temperate regions in the Southern Hemisphere, as well. The greatest diversity of parrots is in South America and Australasia. 
+					</p>
+					<a href="https://en.wikipedia.org/wiki/Parrot" class="button" target="_blank"><button>continue..</button></a>
+				</td>
+				<td><audio controls>
+					<source src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Talking_Parrot_%28Psittacula_krameri%29.ogg" type="audio/ogg">
+						Your browser does not support the audio element.
+					</audio>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+</div>
+
+
+</body>
+</html>

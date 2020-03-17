@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<meta charset="utf-8">
+	<style>
+		
+		a:hover {
+			color: #004C99;
+		}
+		.maindiv{width: 1250px;height: 1050px;background-color:#CCE5FF;margin: 0 auto;border: 1px solid #000 }
+		
+
+		
+		.midDiv{width: 1000px; height: 400px;margin: 150px 50px 0 500px}
+		.iconDiv{width: 500px;height: auto;}
+		.words{width: 175px;height:auto;margin: 0 20px 0 -60px;float: left;}
+		.areas{width: 100px;height:auto;margin: -3px 0 0 0;float: left;}
+		.form{width: 200px;line-height: 800px;float: left;}
+		.logo{
+			height: 40px;
+			margin: -21px 0 0 525px;
+			position: absolute;
+		}
+		
+		h1{margin: 15px 0 0 130px}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		li {
+			float: left;
+
+			margin: -2px 0 0 0 ;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover:not(.active) {
+			background-color: #111;
+		}
+
+		.active {
+			background-color: #CCE5FF;
+			color: #000;
+		}
+		.bosluk{margin: 0 0 15px 0}
+		.interests{width: 500px; height: 500px;margin: 0 50px 0 430px;float: left;}
+		.buttons{width: 200px;height: auto; margin: 0 auto }
+
+
+		
+
+		
+		
+		
+		
+	}
+</style>
+<link rel="shortcut icon" href="images/logo2new.png"/>
+</head>
+<body>
+	<div class="maindiv">
+		<div><ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="services.html">Our Services</a></li>
+			<li><a href="team.html">Our Team</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="contactme.html">Contact</a></li>
+			<li><a class="active" href="registration.html">Registration</a></li>
+		</ul>
+		<div class="logo"><a href="index.html"><img src="images/logoyeni.png" class="logo"></a></div>
+
+	</div>
+
+	<form action="https://www.google.com/search" method="get" name="searchform" target="_blank" style="margin: 10px 0 0 900px;clear: both;">
+		<label for="gsearch">Search Google:</label>
+		<input name="sitesearch" type="hidden">
+		<input id="gsearch" autocomplete="on" name="q" placeholder="Search.." required  type="text">
+		<button class="button" type="submit" title="Search">Search</button>
+	</form>	
+
+	<div class="midDiv">
+
+		<form action="regsuccess.html" method="post">
+			<div class="words">
+				<label for="name" class="bosluk">Name Surname :</label><br><br>
+				<label for="password" class="bosluk">Password: </label><br><br>
+				<label for="mail">E-mail :</label><br><br>
+				<label for="dob">Date of Birth :</label><br><br>
+				<label for="department">Department :</label><br><br>
+				<label for="gender">Gender :</label><br><br><br><br><br>
+				<label for="dob">About Me :</label><br><br><br><br><br><br><br><br>	
+				<label for="department">Upload Your Photo :</label><br><br><br>
+				<label for="gender">Mark Your Interests :</label><br><br>
+			</div>
+			<div class="areas">
+
+				<input type="text" id="name" name="name" class="bosluk">
+				<input type="text" id="password" name="password" class="bosluk">
+				<input type="text" id="mail" name="mail" placeholder="xyz@abc.com" class="bosluk">
+				
+				<input type="date" id="dob" name="dob" class="bosluk">
+				
+
+
+				<select id="department" style="margin: 2px 0 17px 0">
+					<option value="Computer Engineering">Computer Engineering</option>
+					<option value="Mechanical Engineering">Mechanical Engineering</option>
+
+				</select>
+
+				<label for="male">
+					<input id="male" type="radio" name="gender" value="male">M
+				</label>
+				<label for="female">
+					<input id="female" type="radio" name="gender" value="female">F
+				</label>
+
+				<textarea rows="10" cols="30" id="message"name="message" style="margin: 0 0 40px 0"></textarea>
+				<input type="file" name="photo">
+			</div>
+		</div>
+		<div class="interests">
+			<input type="checkbox" name="vehicle" 	>Autos and Vehicles
+			<input type="checkbox" name="vehicle" style="margin: 0 0 10px 53px">Comedy<br>
+			<input type="checkbox" name="vehicle" 	>Education
+			<input type="checkbox" name="vehicle" style="margin: 0 0 10px 112px">Film and Animation<br>
+			<input type="checkbox" name="vehicle" 	>Gaming
+			<input type="checkbox" name="vehicle" style="margin: 0 0 8px 125px">Music<br>
+			<input type="checkbox" name="vehicle" 	>Politics
+			<input type="checkbox" name="vehicle" style="margin: 0 0 10px 129px">Pets and Animals<br>
+			<input type="checkbox" name="vehicle" 	>Science and Technology
+			<input type="checkbox" name="vehicle" style="margin: 0 0 10px 22px">Sports<br>
+
+			<div class="buttons">
+				<input type="submit" name="registration" value="Submit"><br><br>
+			</form>
+			<form action="registration.html">
+			<input type="submit" value="Reset"></button></form>
+		</div>
+
+	</div>
+
+</div>
+
+
+</body>
+</html>

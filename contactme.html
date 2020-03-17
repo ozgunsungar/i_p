@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<style>
+		
+		a:hover {
+			color: #004C99;
+		}
+		.maindiv{
+			width: 1250px;
+			height: 1050px;
+			background-color:#CCE5FF;
+			margin: 0 auto;
+			border: 1px solid #000 
+		}
+		.midDiv{
+			width: 1000px;
+			 height: 750px;
+			 margin: 150px 50px 0 500px
+			}
+		.contactDiv{
+			width: 500px;
+			height: 300px;
+		}
+		.iconDiv{
+			width: 500px;
+			height: 300px;
+			margin: -130px 0 0 -120px
+		}
+
+		.words{
+			width: 100px;
+			height:auto;
+			margin: 0 20px 0 -60px;
+			float: left;
+		}
+		.areas{
+			width: 100px;
+			height:auto;
+			float: left;
+		}
+		.form{width: 200px;
+			line-height: 800px;
+			float: left;
+		}
+		.logo{
+			height: 40px;
+			margin: -21px 0 0 525px;
+			position: absolute;
+		}
+		.iconDiv img{
+			width: 36px;
+			border-radius: 5px;
+			margin: 30px 0 0 50px;
+		}
+
+		h1{
+			margin: 15px 0 0 130px
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		li {
+			float: left;
+
+			margin: -2px 0 0 0 ;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover:not(.active) {
+			background-color: #111;
+		}
+
+		.active {
+			background-color: #CCE5FF;
+			color: #000;
+		}
+
+		
+
+		
+		
+		
+		
+	}
+</style>
+<link rel="shortcut icon" href="images/logo2new.png"/>
+</head>
+<body>
+	<div class="maindiv">
+		<div><ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="services.html">Our Services</a></li>
+			<li><a href="team.html">Our Team</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a class="active" href="contactme.html">Contact</a></li>
+			<li><a href="registration.html">Registration</a></li>
+		</ul>
+		<div class="logo"><a href="index.html"><img src="images/logoyeni.png" class="logo"></a></div>
+
+	</div>
+
+	<form action="https://www.google.com/search" method="get" name="searchform" target="_blank" style="margin: 10px 0 0 900px;clear: both;">
+		<label for="gsearch">Search Google:</label>
+		<input name="sitesearch" type="hidden">
+		<input id="gsearch" autocomplete="on" name="q" placeholder="Search.." required="required"  type="text">
+		<button class="button" type="submit" title="Search">Search</button>
+	</form>	
+
+	<div class="midDiv">
+
+		<form action="response.html" method="post">
+			<div class="words">
+				<label for="name">First name:</label><br><br>
+				<label for="mail">E-mail:</label><br><br>
+				<label for="telephone">Telephone:</label><br><br>
+				<label for="issue">Issue:</label><br><br><br><br><br>
+				<label for="message">Message:</label><br><br>
+			</div>
+			<div class="areas">
+
+				<input type="text" id="name" name="name"><br><br>
+				<input type="text" id="mail" name="mail">
+
+				<input type="text" id="telephone" name="telephone" placeholder="Max Length is 11" pattern="[0-9]{3,11}" style="margin: 13px 0 0 0">
+
+				<input type="text" id="issue" name="issue" style="margin: 14px 0 0 0"><br><br>
+
+
+				<textarea rows="10" cols="30" id="message"name="message"></textarea>
+				<button type="submit">Send</button>
+
+
+				<div class="contactDiv" style="margin: 0 0 0 -120px">
+					<h1>OR</h1>
+					<p>If you want to contact me,you can mail to adress below:</p>
+					<span style="color: #000;margin: 0 0 0 85px">sungar2698@gmail.com</span>
+				</div>
+				<div class="iconDiv">
+					<a href="index.html" ><img src="images/home.png" style="margin: 30px 0 0 139px; "></a><br>
+					<a href="https://mail.google.com" target="_blank"><img src="images/gmail.png" ></a>
+					<a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" ></a>
+					<a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.png"></a>
+				</div>
+			</div>
+		</form>
+		
+
+	</div>
+</div>
+
+
+</body>
+</html>

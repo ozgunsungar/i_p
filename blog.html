@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html><!-- appearance in a.button is only not supported in Internet Explorer-->
+<head>
+	<title>Blog</title>
+	<meta charset="utf-8">
+	<style>
+		
+		a:hover {
+			color: #004C99;
+		}
+		.maindiv {
+			width: 1250px;height: 1200px;background-color:#CCE5FF;margin: 0 auto;border: 1px solid #000 
+		}
+		.active {
+			background-color: #CCE5FF;
+			color: #000;
+		}
+		.tablo{
+			width: 1200px;height: 1000px; margin: 50px auto
+		}
+		.logo{
+			height: 40px;
+			margin: -21px 0 0 525px;
+			position: absolute;
+		}
+		p { 
+			font: 20px tahoma
+		}
+		
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+
+		}
+
+		li {
+			float: left;
+			
+			margin: -20px 0 0 0 ;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+
+		}
+
+		li a:hover:not(.active) {
+			background-color: #111;
+
+		}
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			
+
+		}
+		td {
+			text-align: center;
+			padding: 8px;
+		}
+		
+
+		
+		img {
+			height: 150px;
+
+
+		}
+
+		a.button {
+			-webkit-appearance: button;
+			-moz-appearance: button;
+			appearance: button;
+
+			text-decoration: none;
+			color: initial;
+
+
+		}
+		button{
+			border-radius: 10px;
+		}
+		tr.border_top td {
+			border-top:1pt solid black;
+		}
+		
+
+		
+		
+		
+		
+	}
+</style>
+
+<link rel="shortcut icon" href="images/logo2new.png"/>
+</head>
+<body>
+	<div class="maindiv">
+		<div><ul>
+			<br>
+			<li><a href="index.html">Home</a></li>
+			<li><a class="active" href="blog.html">Blog</a></li>
+			<li><a href="services.html">Our Services</a></li>
+			<li><a href="team.html">Our Team</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="contactme.html">Contact</a></li>
+			<li><a href="registration.html">Registration</a></li>
+			
+		</ul>
+		<div class="logo"><a href="index.html"><img src="images/logoyeni.png" class="logo"></a></div>
+		
+
+	</div>
+
+	<form action="https://www.google.com/search" method="get" name="searchform" target="_blank" style="margin: 10px 0 0 900px;clear: both;">
+		<label for="gsearch">Search Google:</label>
+		<input name="sitesearch" type="hidden">
+		<input id="gsearch" autocomplete="on" name="q" placeholder="Search.." required="required"  type="text">
+		<button class="button" type="submit" title="Search">Search</button>
+	</form>	
+	<div class="tablo">
+		
+		
+
+		<table>
+			
+
+			<tr class="border_top">
+				
+				<td>
+					<h2>What is a Veterinarian?</h2>
+					<div class="çerçeve"><br><img src="images/veteriner-hekim.png"></div></td>
+					<td><p>Veterinarian; is the person who takes precautions for the health of all animal species living on earth (pet animals, livestock, exotic animals and national animals), equipped with medical knowledge and legal authority in areas such as diagnosis, treatment, reproduction, health and care of animal diseases. In addition, the prevention and control of patients who can pass from animals to humans, control of animal food are among the duties and responsibilities of veterinarians.</p>
+						
+
+					</td>
+
+				</tr>
+				
+				<tr class="border_top">
+					<td>
+						<h2>Big Cats Week</h2>
+						<a href="gallery.html" class="button" target="_blank"><img src="images/buyuk-kediler-haftasi.jpg"></a></td>
+						<td><p>Big Cats Week is a project organized by Nat Geo Wild to draw attention to extinct animals and volunteers trying to protect them. The slogan of the meaningful project, the third of which will take place between 3-10 February 2013, is “Roar for Animals”.
+
+						</p>
+						<a href="big-cats.html" class="button" target="_blank"><button>continue..</button></a>
+					</td>
+
+				</tr>
+				<tr class="border_top">
+					<td>
+						<h2>Ambulance for Animals in Van</h2>
+						<img src="images/ambulance.png"></td>
+						<td><p>Ambulance for Animals in Van Yüzüncü Yıl University (YYÜ) Veterinary Faculty purchased a full-fledged animal ambulance for approximately 200 thousand liras.
+						</p>
+						<a href="van.html" class="button" target="_blank"><button>continue..</button></a>
+
+					</td>
+
+				</tr>
+
+			</table>
+		</div>
+
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html><!-- appearance in a.button is only not supported in Internet Explorer-->
+<head>
+	<title>Blog</title>
+	<meta charset="utf-8">
+	<style>
+		
+		a:hover {
+			color: #004C99;
+		}
+		.maindiv {
+			width: 1250px;height: 1250px;background-color:#CCE5FF;margin: 0 auto;border: 1px solid #000 
+		}
+		.active {
+			background-color: #CCE5FF;
+			color: #000;
+		}
+	
+		.logo{
+			height: 40px;
+			margin: -21px 0 0 525px;
+			position: absolute;
+		}
+		p { 
+			font: 20px tahoma
+		}
+		
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+
+		}
+
+		li {
+			float: left;
+			
+			margin: -20px 0 0 0 ;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+
+		}
+
+		li a:hover:not(.active) {
+			background-color: #111;
+
+
+		
+
+		a.button {
+			-webkit-appearance: button;
+			-moz-appearance: button;
+			appearance: button;
+
+			text-decoration: none;
+			color: initial;
+
+
+		}
+		button{
+			border-radius: 10px;
+		}
+		
+
+		
+		
+		
+		
+	}
+</style>
+
+<link rel="shortcut icon" href="images/logo2new.png"/>
+</head>
+<body>
+	<div class="maindiv">
+		<div><ul>
+			<br>
+			<li><a href="index.html">Home</a></li>
+			<li><a class="active" href="blog.html">Blog</a></li>
+			<li><a href="services.html">Our Services</a></li>
+			<li><a href="team.html">Our Team</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="contactme.html">Contact</a></li>
+			<li><a href="registration.html">Registration</a></li>
+			
+		</ul>
+		<div class="logo"><a href="index.html"><img src="images/logoyeni.png" class="logo"></a></div>
+		
+
+	</div>
+
+	<form action="https://www.google.com/search" method="get" name="searchform" target="_blank" style="margin: 10px 0 0 900px;clear: both;">
+		<label for="gsearch">Search Google:</label>
+		<input name="sitesearch" type="hidden">
+		<input id="gsearch" autocomplete="on" name="q" placeholder="Search.." required="required"  type="text">
+		<button class="button" type="submit" title="Search">Search</button>
+	</form>	
+	<h1>Ambulance for Animals in Van</h1>
+	<p>Ambulance for Animals in Van Yüzüncü Yıl University (YYÜ) Veterinary Faculty purchased a full-fledged animal ambulance for approximately 200 thousand liras.</p>
+	<p>When an ambulance, injured and sick animal is reported, the animal will go to the region where the animal is accompanied by veterinarians and will transfer the animal to the university's animal hospital after the first intervention. The ambulance, which will run for the help of pets and street animals as well as animals that are sick or injured in nature, was delivered at a ceremony held at YYÜ Faculty of Veterinary Medicine.
+</p>
+<img src="images/hayvanAmbulans.jpg" alt="Ambulance for animals">
+
+
+	</div>
+
+
+</body>
+</html>
